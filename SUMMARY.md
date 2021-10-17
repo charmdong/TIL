@@ -2,8 +2,9 @@
 
 * [🧑🏻‍💻 Today I Learned](README.md)
 * [HTTP](http/README.md)
+  * [HTTP](http/http.md)
   * [HTTP Status](http/http-status.md)
-  * [TCP](http/tcp.md)
+  * [TCP](http/tcp-udp.md)
   * [Mixed Content issue](http/mixed-content-issue.md)
 * [Java](java/README.md)
   * [객체지향 프로그래밍 OOP란?](java/oop.md)
