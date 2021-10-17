@@ -12,6 +12,7 @@
 
 * 자바 소스를 <mark style="color:blue;">**컴파일하는 과정**</mark>에서 예외 처리 코드가 필요한지 검사한다.
 * 반드시 <mark style="color:orange;">**예외 처리 코드**</mark>가 있어야 한다.
+* 예외 발생 시, Transaction을 <mark style="color:blue;">**rollback 하지 않는다.**</mark>
 * 프로그램 실행 흐름상 예외 발생 가능성이 있는 상황을 표현한다.
 * 예외 처리 코드가 없다면 <mark style="color:red;">**컴파일 에러**</mark>가 발생. (콘솔창에)
 * Exception 상속, RuntimeException 상속 X
@@ -19,8 +20,9 @@
 
 #### 2. UnCheckedException
 
-* 컴파일하는 과정에서 예외 처리 코드를 검사하지 않는 예외를 말한다.
+* 컴파일하는 과정에서 예외 처리 코드를 검사하지 않으며, 실행 단계에서 확인 가능하다.
 * 컴파일하는 데는 문제가 없다.
+* 예외 발생 시, Transaction을 <mark style="color:blue;">**rollback한다.**</mark>
 * 자바 컴파일러가 체크를 하지 않기 때문에, <mark style="color:green;">**개발자의 경험에 의해 예외 처리 코드를 삽입**</mark>해야 한다.
 * RuntimeException을 상속
 * NullPointerException, ArrayIndexOutOfBoundsException 
