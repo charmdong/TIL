@@ -8,13 +8,24 @@
 
 ### **예외의 종류**
 
-|                                                                                                                                                               |                                                                                                                                        |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
-| **일반 예외 (Exception)**                                                                                                                                         | **실행 예외 (RuntimeException)**                                                                                                           |
-| - 자바 소스를 **컴파일하는 과정**에서 예외 처리 코드가 필요한지 검사하기 때문에 컴파일러 체크 예외라고도 한다. - 예외 처리 코드가 없다면, **컴파일 오류**가 발생한다. - Exception 클래스를 상속받지만 RuntimeException을 상속받지 않는 클래스들이다. | - 컴파일하는 과정에서 예외 처리 코드를 검사하지 않는 예외를 말한다. - RuntimeException을 상속받은 클래스들이다. - 자바 컴파일러가 체크를 하지 않기 때문에, 개발자의 경험에 의해서 **예외 처리 코드**를 삽입해야 한다. |
-| # ClassNotFoundException # InterruptedException                                                                                                               | # NullPointerException # ArrayIndexOutOfBoundsException # NumberFormatException # ClassCastException                                   |
+#### 1. CheckException
 
-****
+* 자바 소스를 <mark style="color:blue;">**컴파일하는 과정**</mark>에서 예외 처리 코드가 필요한지 검사한다.
+* 반드시 <mark style="color:orange;">**예외 처리 코드**</mark>가 있어야 한다.
+* 프로그램 실행 흐름상 예외 발생 가능성이 있는 상황을 표현한다.
+* 예외 처리 코드가 없다면 <mark style="color:red;">**컴파일 에러**</mark>가 발생. (콘솔창에)
+* Exception 상속, RuntimeException 상속 X
+* ClassNotFoundException, InterruptedException 등
+
+#### 2. UnCheckedException
+
+* 컴파일하는 과정에서 예외 처리 코드를 검사하지 않는 예외를 말한다.
+* 컴파일하는 데는 문제가 없다.
+* 자바 컴파일러가 체크를 하지 않기 때문에, <mark style="color:green;">**개발자의 경험에 의해 예외 처리 코드를 삽입**</mark>해야 한다.
+* RuntimeException을 상속
+* NullPointerException, ArrayIndexOutOfBoundsException 
+
+
 
 ### **예외 처리**
 
