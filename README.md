@@ -10,6 +10,8 @@
 
 ### HTTP
 
+* HTTP Status
+* TCP, UDP
 * [Mixed Content issue](http/mixed-content-issue.md)
 
 
@@ -17,8 +19,12 @@
 ### Java
 
 * [OOP](java/oop.md)
+* [JVM (Java Virtual Machine)](java/java-virtual-machine.md)
+* [GC (Garbage Collector)](java/garbage-collector.md)
 * [Exception](java/exception.md)
 * [Array & Collection](java/array-collection.md)
+* [ExceptionHandler, ControllerAdvice](java/exceptionhandler-controlleradvice.md)
+* [Statement, PreparedStatement](java/statement-preparedstatement.md)
 
 
 
@@ -30,14 +36,17 @@
 
 
 
-### JPA
+### Database
+
+* [Index](database/index.md)
+* [Transaction](database/transaction.md)
 
 
 
-### MyBatis
+### Design Pattern
 
 
 
-### IDE
+### CS
 
-* IntelliJ
+* [Process, Thread](cs/process-thread.md)
