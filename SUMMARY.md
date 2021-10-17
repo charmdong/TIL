@@ -8,7 +8,7 @@
   * [TCP](http/tcp-udp.md)
   * [Mixed Content issue](http/mixed-content-issue.md)
 * [Java](java/README.md)
-  * [객체지향 프로그래밍 OOP란?](java/oop.md)
+  * [OOP](java/oop.md)
   * [Java Virtual Machine](java/java-virtual-machine.md)
   * [Garbage Collector](java/garbage-collector.md)
   * [Exception](java/exception.md)
