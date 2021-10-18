@@ -23,7 +23,7 @@
 * [GC (Garbage Collector)](java/garbage-collector.md)
 * [Exception](java/exception.md)
 * [Array & Collection](java/array-collection.md)
-* [ExceptionHandler, ControllerAdvice](java/exceptionhandler-controlleradvice.md)
+* [ExceptionHandler, ControllerAdvice](spring/exceptionhandler-controlleradvice.md)
 * [Statement, PreparedStatement](java/statement-preparedstatement.md)
 
 
