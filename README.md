@@ -37,6 +37,12 @@
 
 
 
+### JPA
+
+* [what-is-jpa.md](jpa/what-is-jpa.md "mention")
+
+
+
 ### Database
 
 * [index.md](database/index.md "mention")

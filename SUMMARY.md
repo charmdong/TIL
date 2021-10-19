@@ -20,6 +20,8 @@
   * [ExceptionHandler, ControllerAdvice](spring/exceptionhandler-controlleradvice.md)
 * [Spring Boot](spring-boot/README.md)
   * [Page 2](spring-boot/page-2.md)
+* [JPA](jpa/README.md)
+  * [What is JPA](jpa/what-is-jpa.md)
 * [Database](database/README.md)
   * [Index](database/index.md)
   * [Transaction](database/transaction.md)
