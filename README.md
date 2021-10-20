@@ -41,6 +41,7 @@
 
 * [what-is-jpa.md](jpa/what-is-jpa.md "mention")
 * [persistence-context-entity.md](jpa/persistence-context-entity.md "mention")
+* [persistence-context.md](jpa/persistence-context.md "mention")
 
 
 
