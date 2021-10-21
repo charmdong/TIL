@@ -32,3 +32,4 @@
   * [Builder](design-pattern/builder.md)
 * [CS](cs/README.md)
   * [Process, Thread](cs/process-thread.md)
+* [🔫 Trouble Shooting](trouble-shooting.md)
