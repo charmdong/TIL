@@ -8,6 +8,7 @@
   * [TCP](http/tcp-udp.md)
   * [Mixed Content issue](http/mixed-content-issue.md)
   * [GET, POST](http/get-post.md)
+  * [POST, PUT](http/post-put.md)
 * [Java](java/README.md)
   * [OOP](java/oop.md)
   * [Java Virtual Machine](java/java-virtual-machine.md)
