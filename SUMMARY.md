@@ -20,6 +20,7 @@
   * [Transactional](spring/transactional.md)
   * [AOP](spring/aop.md)
   * [ExceptionHandler, ControllerAdvice](spring/exceptionhandler-controlleradvice.md)
+  * [Welcome file](spring/welcome-file.md)
 * [Spring Boot](spring-boot/README.md)
   * [Page 2](spring-boot/page-2.md)
 * [JPA](jpa/README.md)
