@@ -59,7 +59,7 @@ Spring은 **Controller에서 예외가 발생하면 **<mark style="color:blue;">
 
 ### 2. @ControllerAdvice, @RestControllerAdvice
 
-@ExceptionHandler를 이용하면 해당 컨트롤러에서 발생한 예외만 처리할 수 있다. 만약 모든 컨트롤러에서 공통으로 발생하는 예외를 처리하고자 한다면, @ControllerAdvice, @RestControllerAdvice를 이용하면 된다.
+@ExceptionHandler를 이용하면 해당 컨트롤러에서 발생한 예외만 처리할 수 있다. 만약 **모든 컨트롤러에서 **<mark style="background-color:purple;">**공통으로 발생하는 예외**</mark>**를 처리하고자 한다면, **<mark style="color:blue;">**@ControllerAdvice, @RestControllerAdvice**</mark>**를 이용하면 된다.**
 
 ```java
 @ControllerAdvice("com.donggun.springMaster.controller")
@@ -74,7 +74,7 @@ public class CommonExceptionHandler {
 
 @ControllerAdvice 어노테이션을 이용하면 적용할 컨트롤러의 범위를 지정해 해당 컨트롤러들에 대해 공통으로 예외를 처리할 수 있게 해준다.&#x20;
 
-> @ControllerAdvice의 @ExceptionHandler 메서드와 컨트롤러의 @ExceptionHandler 중에서는 후자가 높은 우선순위를 갖는다.
+> **@ControllerAdvice의 @ExceptionHandler 메서드**와 **컨트롤러의 @ExceptionHandler 메서드** 중에서는 <mark style="background-color:yellow;">**후자가 높은 우선순위**</mark>를 갖는다.
 
 ###
 
