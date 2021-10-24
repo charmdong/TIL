@@ -26,7 +26,7 @@
 * [garbage-collector.md](java/garbage-collector.md "mention")
 * [exception.md](java/exception.md "mention")
 * [array-collection.md](java/array-collection.md "mention")
-* [exceptionhandler-controlleradvice.md](spring/exceptionhandler-controlleradvice.md "mention")
+* [exception.md](spring/exception.md "mention")
 * [statement-preparedstatement.md](java/statement-preparedstatement.md "mention")
 
 
@@ -35,6 +35,8 @@
 
 * [transactional.md](spring/transactional.md "mention")
 * [aop.md](spring/aop.md "mention")
+* [exception.md](spring/exception.md "mention")
+* [welcome-file.md](spring/welcome-file.md "mention")
 
 ### Spring Boot
 
