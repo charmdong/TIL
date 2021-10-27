@@ -9,6 +9,7 @@
   * [Mixed Content issue](http/mixed-content-issue.md)
   * [GET, POST](http/get-post.md)
   * [POST, PUT](http/post-put.md)
+  * [General Header](http/general-header.md)
 * [Java](java/README.md)
   * [OOP](java/oop.md)
   * [Java Virtual Machine](java/java-virtual-machine.md)

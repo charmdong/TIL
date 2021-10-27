@@ -16,6 +16,8 @@
 * [tcp-udp.md](http/tcp-udp.md "mention")
 * [mixed-content-issue.md](http/mixed-content-issue.md "mention")
 * [get-post.md](http/get-post.md "mention")
+* [post-put.md](http/post-put.md "mention")
+* [general-header.md](http/general-header.md "mention")
 
 
 
