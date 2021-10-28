@@ -39,4 +39,6 @@
   * [Builder](design-pattern/builder.md)
 * [CS](cs/README.md)
   * [Process, Thread](cs/process-thread.md)
+* [Linux](linux/README.md)
+  * [Command](linux/command.md)
 * [🔫 Trouble Shooting](trouble-shooting.md)

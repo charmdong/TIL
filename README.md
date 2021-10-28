@@ -72,3 +72,9 @@
 ### CS
 
 * [process-thread.md](cs/process-thread.md "mention")
+
+
+
+### Linux
+
+* [command.md](linux/command.md "mention")
