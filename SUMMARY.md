@@ -41,4 +41,5 @@
   * [Process, Thread](cs/process-thread.md)
 * [Linux](linux/README.md)
   * [Command](linux/command.md)
+  * [Port](linux/port.md)
 * [🔫 Trouble Shooting](trouble-shooting.md)
