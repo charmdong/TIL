@@ -46,4 +46,5 @@
 * [Linux](linux/README.md)
   * [Command](linux/command.md)
   * [Port](linux/port.md)
-* [🔫 Trouble Shooting](trouble-shooting.md)
+* [🔫 Trouble Shooting](trouble-shooting/README.md)
+  * [00](trouble-shooting/00.md)
