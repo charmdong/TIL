@@ -24,7 +24,7 @@
   * [Exception](spring/exception.md)
   * [Welcome file](spring/welcome-file.md)
 * [Spring Boot](spring-boot/README.md)
-  * [Page 2](spring-boot/page-2.md)
+  * [Create Project](spring-boot/create-project.md)
 * [JPA](jpa/README.md)
   * [What is JPA](jpa/what-is-jpa.md)
   * [Persistence Context, Entity](jpa/persistence-context-entity.md)
