@@ -10,6 +10,7 @@
   * [GET, POST](http/get-post.md)
   * [POST, PUT](http/post-put.md)
   * [General Header](http/general-header.md)
+  * [HTTP API Design Word](http/http-api-design-word.md)
 * [Java](java/README.md)
   * [OOP](java/oop.md)
   * [Java Virtual Machine](java/java-virtual-machine.md)
