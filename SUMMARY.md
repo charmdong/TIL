@@ -48,6 +48,7 @@
   * [Process, Thread](cs/process-thread.md)
 * [Git](git/README.md)
   * [Pull, Fetch](git/pull-fetch.md)
+  * [How to update remote branch](git/how-to-update-remote-branch.md)
 * [Linux](linux/README.md)
   * [Command](linux/command.md)
   * [Port](linux/port.md)
