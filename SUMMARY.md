@@ -26,6 +26,7 @@
   * [AOP](spring/aop.md)
   * [Exception](spring/exception.md)
   * [Welcome file](spring/welcome-file.md)
+  * [Validator](spring/validator.md)
 * [Spring Boot](spring-boot/README.md)
   * [Create Project](spring-boot/create-project.md)
 * [JPA](jpa/README.md)

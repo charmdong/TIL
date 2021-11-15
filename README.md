@@ -42,6 +42,7 @@
 * [aop.md](spring/aop.md "mention")
 * [exception.md](spring/exception.md "mention")
 * [welcome-file.md](spring/welcome-file.md "mention")
+* [validator.md](spring/validator.md "mention")
 
 ### Spring Boot
 
