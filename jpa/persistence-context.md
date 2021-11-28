@@ -74,9 +74,13 @@ tx.commit();
 > 4. 트랜잭션을 커밋하면 엔티티 매니저가 영속성 컨텍스트를 flush한다. 즉, 쓰기 지연 SQL 저장소에 모아둔 쿼리를 DB로 전송한다.
 > 5. 영속성 컨텍스트의 변경 내용을 DB에 동기화한 후, 실제 DB Transaction을 커밋한다.
 
+#### 예외
 
+> <mark style="background-color:red;">**IDENTITY 전략**</mark>을 사용해 기본 키를 할당하는 경우에는 <mark style="background-color:red;">쓰기 지연이 동작하지 않는다.</mark>
+>
+> * 엔티티가 영속 상태가 되려면 식별자가 반드시 필요하다. IDENTITY 식별자 생성 전략은 엔티티를 데이터베이스에 저장해야 식별자를 구할 수 있으므로 <mark style="color:blue;">**em.persist()를 호출하는 즉시 INSERT SQL이 데이터베이스에 전달된다. **</mark>
 
-### 4. Entity 수정
+### 4. Entity 수
 
 #### 변경 감지
 
