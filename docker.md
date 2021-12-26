@@ -33,3 +33,26 @@
 
 
 
+### 도커 클라이언트 명령어
+
+* docker run \[이미지명] \[명령어]
+  * 명령어 자리가 비어 있지 않다면 이미지가 지니고 있는 시작 명령어를 무시하고 해당 명령어를 실행.
+  * 이미지 내 존재하는 명령어만 사용할 수 있다.
+* docker ps
+  * 현재 실행 중인 컨테이너 목록 확인
+  * \-a : 모든 컨테이너 목록 조회
+* docker run \[이미지명] : docker create \[이미지명] + docker start \[컨테이너 아이디/이름]
+  * docker create \[이미지명] : 컨테이너가 생성되면서 아이디를 출력한다.
+  * docker start \[컨테이너 아이디/이름] : 컨테이너 실행
+    * \-a :
+* docker stop : 컨테이너가 하던 작업을 완료하고 중지시킨다.
+  * SIGTERM(종료 신호) → SIGKILL(15) → Main process
+* docker kill : 바로 컨테이너를 종료시킨다.
+  * SIGKILL → Main process
+* docker rm \[컨테이너 아이디/이름] : 컨테이너 삭제
+  * 중지 상태의 컨테이너만 삭제할 수 있다.
+  * docker rm ‘docker ps -a -q’ : 중지 상태 컨테이너 모두 삭제
+* docker rmi \[이미지 ID] : 이미지 삭제
+* docker system prune : 도커를 사용하지 않는 경우 컨테이너, 이미지, 네트워크 삭제
+  * 중지 상태 컨테니어만 정리됨
+
